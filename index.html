@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="manifest=" href="manifest.json">
+    <meta name="theme-color" content="#080f25">
+</head>
+<body>
+    <body>
+
+    <div class="container">
+
+        <h1>Binary convrter</h1>
+        <p>Smart Number System Converter</p>
+
+        <div class="converter">
+
+            <label for="number">Enter Number</label>
+            <input type="text" id="number"
+                   placeholder="Enter a number">
+
+            <label for="fromBase">Convert From</label>
+            <select id="fromBase">
+                <option value="2">Binary</option>
+                <option value="10">Decimal</option>
+                <option value="8">Octal</option>
+                <option value="16">Hexadecimal</option>
+            </select>
+
+            <label for="toBase">Convert To</label>
+            <select id="toBase">
+                <option value="10">Decimal</option>
+                <option value="2">Binary</option>
+                <option value="8">Octal</option>
+                <option value="16">Hexadecimal</option>
+            </select>
+
+            <button id="convertBtn">Convert</button>
+
+            <div class="result">
+                <h3>Result</h3>
+                <p id="result">Your answer will appear here</p>
+                <button id="copyBtn">Copy</button>
+            </div>
+
+            <button id="clearBtn">Clear</button>
+
+        </div>
+
+    </div>
+
+</body>
+</body>
+</html>

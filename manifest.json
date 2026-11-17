@@ -1,0 +1,23 @@
+{
+  "name": "Binora X",
+  "short_name": "Binora X",
+  "description": "Smart Number System Converter",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080F25",
+  "theme_color": "#080F25",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icin-912.png",
+      "sizes": "335x355",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
